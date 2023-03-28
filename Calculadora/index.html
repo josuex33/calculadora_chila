@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Josué Luna -<span>Practica de javaScript</span></h1>
+    </header>
+
+
+    <div class="contenedor">
+        <div class="calculadora">
+            <div class="display">
+                <div class="valor-superior" data-valor-superior>    </div>
+                <div class="valor-inferior" data-valor-inferior>    </div>
+            </div>
+        
+        <button class="span2" data-borrar-todo><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eraser" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M19 19h-11l-4 -4a1 1 0 0 1 0 -1.41l10 -10a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41l-9 9" />
+            <line x1="18" y1="12.3" x2="11.7" y2="6" />
+          </svg></button>
+        <button data-borra><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+            <path d="M12 10l4 4m0 -4l-4 4" />
+          </svg></button>
+        <button data-operador>/</button>
+        <button data-numero>1</button>
+        <button data-numero>2</button>
+        <button data-numero>3</button>
+        <button data-operador>*</button>
+        <button data-numero>4</button>
+        <button data-numero>5</button>
+        <button data-numero>6</button>
+        <button data-operador>+</button>
+        <button data-numero>7</button>
+        <button data-numero>8</button>
+        <button data-numero>9</button>
+        <button data-operador>-</button>
+        <button data-numero>.</button>
+        <button data-numero>0</button>
+        <button data-igual>=</button>
+        </div>
+    </div>
+
+<script src="logic.js"></script>
+
+<footer>Derechos reservados a Josué Luna Salinas</footer>
+
+</body>
+
+
+</html>

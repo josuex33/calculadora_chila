@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(49, 49, 137);
+}
+.contenedor{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 2rem;
+
+
+}
+.calculadora{
+    width: 400px;
+    height: 500px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows:130px repeat(6,60px);
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.calculadora button{
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: 50%;
+    border:2px #662cc4 solid;
+    margin: 3px;
+}
+
+.display{
+    height: 120px;
+    background-color: rgb(24, 230, 35);
+    opacity: .6;
+    grid-column: 1/-1;
+    border: 3px #662cc4 solid;
+    text-align: end;
+    padding: 10px 0;
+}
+
+.calculadora button:hover{
+    background-color: rgb(43, 18, 123);
+}
+
+.span2{
+    grid-column: span 2;
+}
+
+.valor-superior{
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+
+}
+
+.valor-inferior{
+    color:rgb(114, 0, 235);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  rgb(50, 50, 180);
+}
+
+h1{
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(32, 118, 222);
+
+}
